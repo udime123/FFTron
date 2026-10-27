@@ -1,0 +1,53 @@
+title: Fresh Faces Tron Limit Form
+originalAuthor: Sawyer Friend
+description: A special skin for Limit Form, turns all Limit Forms into this Ukraine themed Tron Sora.
+game: kh2
+dependencies: 
+assets:
+assets:
+#- name: 00objentry.bin
+#  method: copy
+#  source:
+#  - name: 00objentry.bin
+- name: 00objentry.bin
+  method: listpatch
+  type: List
+  source:
+  - name: objentrylist.yml
+    type: objentry
+- name: remastered\obj\P_EX100_TR_KH1F.mdlx\-0.dds
+  method: copy
+  platform: pc
+  package: fftron
+  source:
+  - name: remastered\obj\P_EX100_TR_KH1F.mdlx\-0.dds
+- name: remastered\obj\P_EX100_TR_KH1F.mdlx\-1.dds
+  method: copy
+  platform: pc
+  package: fftron
+  source:
+  - name: remastered\obj\P_EX100_TR_KH1F.mdlx\-1.dds
+- name: remastered\obj\P_EX100_TR_KH1F.mdlx\-2.dds
+  method: copy
+  platform: pc
+  package: fftron
+  source:
+  - name: remastered\obj\P_EX100_TR_KH1F.mdlx\-2.dds
+- name: remastered\obj\P_EX100_TR_KH1F.mdlx\-3.dds
+  method: copy
+  platform: pc
+  package: fftron
+  source:
+  - name: remastered\obj\P_EX100_TR_KH1F.mdlx\-3.dds
+- name: remastered\obj\P_EX100_TR_KH1F.mdlx\-4.dds
+  method: copy
+  platform: pc
+  package: fftron
+  source:
+  - name: remastered\obj\P_EX100_TR_KH1F.mdlx\-4.dds
+- name: remastered\obj\P_EX100_TR_KH1F.a.us\-9.dds
+  method: copy
+  platform: pc
+  package: fftron
+  source:
+  - name: remastered\obj\P_EX100_TR_KH1F.a.us\-9.dds
